@@ -1,17 +1,16 @@
 import React from 'react';
 import { PageProps } from 'gatsby';
+import Header from './../components/Header'
 
 import Title from '@/components/Title';
 
 const Home: React.FC<PageProps> = () => (
+  <>
+  <Header></Header>
   <main>
-    <Title />
-    <p> Kids Historian </p>
-    <p>
-      Follow me on Twitter (
-      <a href="https://twitter.com/jpedroschmitz">@jpedroschmitz</a>)
-    </p>
+    
   </main>
+  </>
 );
 
 export default Home;
